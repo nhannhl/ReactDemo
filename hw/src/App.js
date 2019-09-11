@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import EventBinding from './components/EventBinding';
 // import ClassClick from './components/ClassClick';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
@@ -12,6 +13,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <EventBinding />
       {/*<ClassClick />*/}
       {/*<FunctionClick />*/}
       {/*<Counter />*/}
