@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "webpack": "^4.39.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +21,7 @@
     "production": [
       ">0.2%",
       "not dead",
-      "not op_mini all"
+      "op_mini all"
     ],
     "development": [
       "last 1 chrome version",
