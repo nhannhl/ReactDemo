@@ -20,6 +20,7 @@ class LifecycleA extends Component {
         return null;
     }
 
+    //4.render didmount
     componentDidMount() {
         console.log(`LifecycleA componentDidMount`)
     }
