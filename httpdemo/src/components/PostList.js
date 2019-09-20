@@ -41,6 +41,7 @@ class PostList extends Component {
                 })}*/}
                 {posts.length ? posts.map(post => <div key={post.id}>{post.title}</div>) : null}
                 {errMsg ? <div>{errMsg}</div> : null}
+                
             </div>
         )
     }
