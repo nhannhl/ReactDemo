@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import './App.css';
+// import FormikYupForm from './components/FormikYupForm'
+// import MyEnhancedForm from './components/YumikForm2';
+import YumikForm2 from './components/YumikForm2';
 // import { UserProvider } from './components/userContext';
-import ContextCompC from './components/ContextCompC';
+// import ContextCompC from './components/ContextCompC';
 // import ClickCounterTwo from './components/ClickCounterTwo';
 // import HoverCounterTwo from './components/HoverCounterTwo';
 // import Counter from './components/Counter';
@@ -25,9 +28,12 @@ import ContextCompC from './components/ContextCompC';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <React.Fragment>
+        <YumikForm2 />
+        {/*<FormikYupForm />*/}
+        {/*<MyEnhancedForm />*/}
         {/*<UserProvider value='Robo'>*/}
-          <ContextCompC />
+          {/*<ContextCompC />*/}
         {/*</UserProvider>*/}
         {/*<Counter render={(count, incrementCount) => <HoverCounterTwo count={count} incrementCount={incrementCount} />} />
         <Counter render={(count, incrementCount) => <ClickCounterTwo count={count} incrementCount={incrementCount} />} />*/}
@@ -56,7 +62,7 @@ class App extends Component {
         <ErrorBoundary>
           <Hero heroName="Thanos" />
         </ErrorBoundary>*/}
-      </div>
+        </React.Fragment>
     )
   }
 }
