@@ -1,11 +1,22 @@
 import React from 'react';
 import './App.css';
-import MouseContainer from './components/useEffectDemo/MouseContainer';
+import CounterThree from './components/useReducerDemo/CounterThree';
+
+// import CompContextC from './components/userContextDemo/CompContextC';
+// import { ChannelContextProvider } from './components/userContextDemo/ChannelContext'
+
+// export const UserContext = React.createContext()
 
 function App() {
   return (
     <div>
-      <MouseContainer />
+      <CounterThree />
+
+      {/*<UserContext.Provider value={'robo'}>
+        <ChannelContextProvider value={'nta'}>
+          <CompContextC />
+        </ChannelContextProvider>
+      </UserContext.Provider>*/}
     </div>
   );
 }
