@@ -3,6 +3,7 @@ import './App.css';
 // import FormikYupForm from './components/FormikYupForm'
 // import MyEnhancedForm from './components/YumikForm2';
 import YumikForm2 from './components/YumikForm2';
+import ReactHookCounter from './components/ReactHookCounter';
 // import { UserProvider } from './components/userContext';
 // import ContextCompC from './components/ContextCompC';
 // import ClickCounterTwo from './components/ClickCounterTwo';
@@ -29,6 +30,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
+      <ReactHookCounter />
         <YumikForm2 />
         {/*<FormikYupForm />*/}
         {/*<MyEnhancedForm />*/}
