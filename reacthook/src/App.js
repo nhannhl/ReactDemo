@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import DataFetchingTwo from './components/useReducerDemo/DataFetchingTwo';
-import DataFetchingOne from './components/useReducerDemo/DataFetchingOne';
+import HookCounter from './components/useStateDemo/HookCounter';
 
 // import CompContextC from './components/userContextDemo/CompContextC';
 // import { ChannelContextProvider } from './components/userContextDemo/ChannelContext'
@@ -11,8 +10,8 @@ import DataFetchingOne from './components/useReducerDemo/DataFetchingOne';
 function App() {
   return (
     <div>
-        <DataFetchingOne />
-        <DataFetchingTwo />
+      <HookCounter />    
+
       {/*<UserContext.Provider value={'robo'}>
         <ChannelContextProvider value={'nta'}>
           <CompContextC />
