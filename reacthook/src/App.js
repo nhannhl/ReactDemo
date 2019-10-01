@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import CounterThree from './components/useReducerDemo/CounterThree';
+import DataFetchingTwo from './components/useReducerDemo/DataFetchingTwo';
+import DataFetchingOne from './components/useReducerDemo/DataFetchingOne';
 
 // import CompContextC from './components/userContextDemo/CompContextC';
 // import { ChannelContextProvider } from './components/userContextDemo/ChannelContext'
@@ -10,8 +11,8 @@ import CounterThree from './components/useReducerDemo/CounterThree';
 function App() {
   return (
     <div>
-      <CounterThree />
-
+        <DataFetchingOne />
+        <DataFetchingTwo />
       {/*<UserContext.Provider value={'robo'}>
         <ChannelContextProvider value={'nta'}>
           <CompContextC />
