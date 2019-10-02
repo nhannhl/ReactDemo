@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HookCounter from './components/useStateDemo/HookCounter';
+import UserForm from './components/customHookDemo/UserForm';
 
 // import CompContextC from './components/userContextDemo/CompContextC';
 // import { ChannelContextProvider } from './components/userContextDemo/ChannelContext'
@@ -10,7 +10,7 @@ import HookCounter from './components/useStateDemo/HookCounter';
 function App() {
   return (
     <div>
-      <HookCounter />    
+      <UserForm />
 
       {/*<UserContext.Provider value={'robo'}>
         <ChannelContextProvider value={'nta'}>
